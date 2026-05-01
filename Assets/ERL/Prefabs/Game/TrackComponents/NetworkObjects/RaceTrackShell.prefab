@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6860906129467054461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7330816345406173952}
+  - component: {fileID: 6700943458507327105}
+  - component: {fileID: 1713498056521086458}
+  - component: {fileID: 5243160247351971051}
+  - component: {fileID: 2168714008141207826}
+  m_Layer: 0
+  m_Name: RaceTrackShell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7330816345406173952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860906129467054461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6700943458507327105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860906129467054461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 2416385985
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1713498056521086458}
+  - {fileID: 5243160247351971051}
+  - {fileID: 2168714008141207826}
+  ForceRemoteRenderTimeframe: 0
+--- !u!114 &1713498056521086458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860906129467054461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1960c234c82edc47a4b0337275c5cb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RestClient.Scripts.Clients.RestClientTrackAPI
+  baseUrl: http://192.168.2.49:8001
+--- !u!114 &5243160247351971051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860906129467054461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93c11f5a8c7f654eaf0221ceaf664f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrackDefinitionManager
+  RestClientTrackGenerator: {fileID: 1713498056521086458}
+  _TrackId: 
+  _LevelId: 0
+  _ExteriorCoordinates: []
+  _ExteriorCoordinatesLength: 0
+  _InteriorCoordinates: []
+  _InteriorCoordinatesLength: 0
+  _StartlineCoordinates: []
+  _StartlineCoordinatesLength: 0
+--- !u!114 &2168714008141207826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860906129467054461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3856b3cb0e38654984593adfc185c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.CryptoKartz.Scripts.ERLTrackVisualsManagerV2
+  TrackExterior: {fileID: 3921426343606308411, guid: e09ed7a5ee1101046822176d6e877155, type: 3}
+  TrackInterior: {fileID: 3921426343606308411, guid: db2b328893c9b0b49a6bc42c567e5465, type: 3}
+  TrackStartline: {fileID: 3921426343606308411, guid: db2b328893c9b0b49a6bc42c567e5465, type: 3}
+  TrackSurface: {fileID: 2862788345809905930, guid: 0b2a579d9a99bcb4bb7cd8f4969e2753, type: 3}
+  trackIsRendered: 0
