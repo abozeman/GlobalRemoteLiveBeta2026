@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639132269394187132
-    m_Hash: 2381221952
+      ticks: 639134308637104692
+    m_Hash: 1421600739
   m_LockFileStatus:
     m_FilePath: C:/Users/antho/TPLive/TP2026Test/TP2026/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639132269394293815
-    m_Hash: 1496711964
+      ticks: 639134308637236647
+    m_Hash: 483189710
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/antho/TPLive/TP2026Test/TP2026/Packages
 m_EditorVersion: 6000.4.2f1 (7a4c1aeef971)
 m_ResolvedPackages:
-- packageId: com.meta.xr.sdk.all@85.0.0
+- packageId: com.meta.xr.sdk.all@201.0.0
   testable: 0
   isDirectDependency: 1
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.all@90ef6bf39e18
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.all@9edae415c95a
   assetPath: Packages/com.meta.xr.sdk.all
   name: com.meta.xr.sdk.all
   displayName: Meta XR All-in-One SDK
@@ -107,40 +107,74 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.audio
     version: 85.0.0
   - name: com.meta.xr.sdk.voice
     version: 85.0.0
   - name: com.meta.xr.sdk.haptics
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.mrutilitykit
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.platform
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.interaction.ovr
-    version: 85.0.0
+    version: 201.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
-  - name: com.meta.xr.sdk.audio
-    version: 85.0.0
-  - name: com.meta.xr.sdk.voice
-    version: 85.0.0
-  - name: com.meta.xr.sdk.haptics
-    version: 85.0.0
-  - name: com.meta.xr.mrutilitykit
-    version: 85.0.0
-  - name: com.unity.textmeshpro
-    version: 5.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
+    version: 201.0.0
+  - name: com.unity.xr.hands
+    version: 1.7.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.meta.xr.sdk.audio
+    version: 85.0.0
+  - name: com.meta.xr.sdk.voice
+    version: 85.0.0
+  - name: com.meta.xr.sdk.haptics
+    version: 201.0.0
+  - name: com.meta.xr.mrutilitykit
+    version: 201.0.0
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   - name: com.unity.ai.navigation
     version: 2.0.12
   - name: com.unity.modules.ai
@@ -148,17 +182,17 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.2
   - name: com.meta.xr.sdk.platform
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.interaction.ovr
-    version: 85.0.0
+    version: 201.0.0
   keywords:
-  - Quest
-  - XR
-  - Oculus
-  - Meta
   - SDK
+  - XR
+  - Meta
+  - Oculus
+  - Quest
   registry:
     id: main
     name: 
@@ -174,7 +208,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065797015100000
+  datePublishedTicks: 639120297054860000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -208,7 +242,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 269657
-  fingerprint: 90ef6bf39e18cf327a84a5cac5bb9d6a8d7e8218
+  fingerprint: 9edae415c95aa1d5b5a5124d5f4236689dcc2799
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 59.0.0
@@ -286,6 +320,7 @@ m_ResolvedPackages:
     - 2.5.0-pre.1
     - 2.5.0-pre.2
     - 2.6.0-pre.1
+    - 2.7.0-pre.1
     compatible:
     - 1.0.0-pre.2
     - 1.0.0-pre.3
@@ -313,7 +348,8 @@ m_ResolvedPackages:
     - 2.5.0-pre.1
     - 2.5.0-pre.2
     - 2.6.0-pre.1
-    recommended: 2.6.0-pre.1
+    - 2.7.0-pre.1
+    recommended: 2.7.0-pre.1
     deprecated: []
   dependencies:
   - name: com.unity.ai.toolkit
@@ -378,7 +414,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-    recommendedVersion: 2.6.0-pre.1
+    recommendedVersion: 2.7.0-pre.1
     isDeprecated: 0
     deprecationMessage: 
     isDiscoverable: 1
@@ -8928,12 +8964,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.sdk.core@85.0.0
+- packageId: com.meta.xr.sdk.core@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.core@f8b4cfb2789f
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.core@9a2eddde53b7
   assetPath: Packages/com.meta.xr.sdk.core
   name: com.meta.xr.sdk.core
   displayName: Meta XR Core SDK
@@ -9011,15 +9047,67 @@ m_ResolvedPackages:
     - 201.0.0
     recommended: 
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.xr.hands
+    version: 1.7.2
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.hands
+    version: 1.7.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
   keywords:
-  - SDK
-  - Meta
-  - XR
   - Oculus
   - Quest
+  - XR
+  - SDK
   - Utilities
+  - Meta
   registry:
     id: main
     name: 
@@ -9035,7 +9123,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065792000590000
+  datePublishedTicks: 639120292785780000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -9069,7 +9157,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 269169
-  fingerprint: f8b4cfb2789f06cb55ea30b9a379bf52c98d1af3
+  fingerprint: 9a2eddde53b704a5794acebf4300ee9eee67edcc
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 59.0.0
@@ -9342,12 +9430,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.sdk.haptics@85.0.0
+- packageId: com.meta.xr.sdk.haptics@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.haptics@d7e7093eecae
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.haptics@ab22382f01e2
   assetPath: Packages/com.meta.xr.sdk.haptics
   name: com.meta.xr.sdk.haptics
   displayName: Meta XR Haptics SDK
@@ -9423,16 +9511,54 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
+    version: 201.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
+    version: 201.0.0
+  - name: com.unity.xr.hands
+    version: 1.7.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
   keywords:
+  - Oculus
   - Quest
   - Meta
-  - XR
   - Haptics
-  - Oculus
+  - XR
   - SDK
   registry:
     id: main
@@ -9449,7 +9575,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065796520410000
+  datePublishedTicks: 639120295926040000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-haptics-sdk/
   hasRepository: 0
   repository:
@@ -9483,7 +9609,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 272446
-  fingerprint: d7e7093eecae9ed731deb54e8eebcef54e13f17f
+  fingerprint: ab22382f01e28c6718eba06b3458012d4ccc4307
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 60.0.0
@@ -9494,12 +9620,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.mrutilitykit@85.0.0
+- packageId: com.meta.xr.mrutilitykit@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.mrutilitykit@6d21b459f6d3
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.mrutilitykit@f5cfbb0224ff
   assetPath: Packages/com.meta.xr.mrutilitykit
   name: com.meta.xr.mrutilitykit
   displayName: Meta MR Utility Kit
@@ -9575,7 +9701,7 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
+    version: 201.0.0
   - name: com.unity.textmeshpro
     version: 3.0.6
   - name: com.unity.ai.navigation
@@ -9584,15 +9710,49 @@ m_ResolvedPackages:
     version: 3.0.2
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
-  - name: com.unity.textmeshpro
-    version: 5.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
+    version: 201.0.0
+  - name: com.unity.xr.hands
+    version: 1.7.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   - name: com.unity.ai.navigation
     version: 2.0.12
   - name: com.unity.modules.ai
@@ -9616,7 +9776,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065796843510000
+  datePublishedTicks: 639120296793450000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview
   hasRepository: 0
   repository:
@@ -9650,7 +9810,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 272450
-  fingerprint: 6d21b459f6d362253a30d22b68dd0afb38f1a288
+  fingerprint: f5cfbb0224ffeec029174ffdf2251085cb1d3ef6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 60.0.0
@@ -9661,12 +9821,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.sdk.platform@85.0.0
+- packageId: com.meta.xr.sdk.platform@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.platform@2c35e5919b21
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.platform@e8696127fbfb
   assetPath: Packages/com.meta.xr.sdk.platform
   name: com.meta.xr.sdk.platform
   displayName: Meta XR Platform SDK
@@ -9734,6 +9894,8 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -9741,13 +9903,23 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   keywords:
-  - XR
-  - Quest
   - Meta
-  - Oculus
   - Platform
   - SDK
+  - Oculus
+  - XR
+  - Quest
   registry:
     id: main
     name: 
@@ -9763,7 +9935,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065793697530000
+  datePublishedTicks: 639120293720180000
   documentationUrl: https://developer.oculus.com/documentation/unity/ps-platform-intro/
   hasRepository: 0
   repository:
@@ -9797,7 +9969,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 262366
-  fingerprint: 2c35e5919b2105a8b5d94c41bd8bfc65fe633496
+  fingerprint: e8696127fbfb74457fc38b5e6db71f4b590e1c45
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 56.0.0-preview
@@ -9808,12 +9980,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.sdk.interaction@85.0.0
+- packageId: com.meta.xr.sdk.interaction@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.interaction@0a0b3efbe99d
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.interaction@a03d9b382ceb
   assetPath: Packages/com.meta.xr.sdk.interaction
   name: com.meta.xr.sdk.interaction
   displayName: Meta XR Interaction SDK Essentials
@@ -9906,12 +10078,12 @@ m_ResolvedPackages:
   - name: com.unity.textmeshpro
     version: 5.0.0
   keywords:
-  - Meta
-  - SDK
   - Interaction
-  - Quest
-  - XR
   - Oculus
+  - Quest
+  - SDK
+  - XR
+  - Meta
   registry:
     id: main
     name: 
@@ -9927,7 +10099,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065795831350000
+  datePublishedTicks: 639120294937900000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
   hasRepository: 0
   repository:
@@ -9961,7 +10133,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 264559
-  fingerprint: 0a0b3efbe99d88502b6218894e19a1faf173b34d
+  fingerprint: a03d9b382ceb7b267996fc79af7012509a6faec5
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 56.0.0-preview
@@ -9972,12 +10144,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.meta.xr.sdk.interaction.ovr@85.0.0
+- packageId: com.meta.xr.sdk.interaction.ovr@201.0.0
   testable: 0
   isDirectDependency: 0
-  version: 85.0.0
+  version: 201.0.0
   source: 1
-  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@964224d78bc9
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@63917e649e42
   assetPath: Packages/com.meta.xr.sdk.interaction.ovr
   name: com.meta.xr.sdk.interaction.ovr
   displayName: "Meta XR Interaction \u200BSDK"
@@ -10061,31 +10233,65 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
+    version: 201.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 85.0.0
+    version: 201.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 85.0.0
-  - name: com.meta.xr.sdk.interaction
-    version: 85.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
+    version: 201.0.0
+  - name: com.unity.xr.hands
+    version: 1.7.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 201.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   - name: com.unity.textmeshpro
     version: 5.0.0
   keywords:
   - OVR
-  - Interaction
-  - Samples
-  - XR
-  - Quest
-  - Oculus
-  - SDK
   - Meta
+  - XR
+  - SDK
+  - Oculus
+  - Interaction
+  - Quest
+  - Samples
   registry:
     id: main
     name: 
@@ -10101,7 +10307,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 639065796138240000
+  datePublishedTicks: 639120295521490000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
   hasRepository: 0
   repository:
@@ -10135,7 +10341,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 265014
-  fingerprint: 964224d78bc96d4bfda7484c91359234725da08f
+  fingerprint: 63917e649e42ae940aec078081f274eba23098f7
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 56.0.0-preview
@@ -10608,6 +10814,181 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 
     minimumUnityVersion: 2023.2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.xr.hands@1.7.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.7.3
+  source: 1
+  resolvedPath: C:\Users\antho\TPLive\TP2026Test\TP2026\Library\PackageCache\com.unity.xr.hands@3e241be20642
+  assetPath: Packages/com.unity.xr.hands
+  name: com.unity.xr.hands
+  displayName: XR Hands
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Surfaces the cross-platform subsystem API for hand-tracking. Implementations
+    of providers will be found in the package for that platform.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.3.0
+    - 1.4.0-pre.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.3
+    - 1.5.0-pre.1
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0-pre.1
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.8.0-pre.1
+    - 1.8.0
+    compatible:
+    - 1.7.3
+    - 1.8.0-pre.1
+    - 1.8.0
+    recommended: 1.7.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.xr.core-utils
+    version: 2.2.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.19.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.management
+    version: 4.5.2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 3.0.1
+  keywords:
+  - xr
+  - vr
+  - virtual
+  - reality
+  - hand
+  - tracking
+  - hands
+  - subsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639047125685610000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.hands@1.7/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git
+    revision: fec468dbeb1985e74ea23797f41f6b00253bf25a
+    path: 
+  unityLifecycle:
+    version: 1.7.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added a project validation rule to Gestures
+    sample to detect missing TMP and provide fix actions.\n\n### Fixed\n\n- Fixed
+    high frame times when rendering the Joints in the `HandVisualizer`.\n- Fixed
+    the `OpenXRHandProvider` constructor being stripped when the Managed Stripping
+    Level is set to High.\n- Mitigated UI flicker in the XR Hand Capture sample scene.\n-
+    Fixed the name of the Material Pipeline Handler object type when using the Create
+    menu.\n- Guarded TMP usages in Gestures sample to prevent compilation errors
+    when TMP is not installed.\n- Fixed MaterialPipelineHandler script to properly
+    convert and save materials.\n\n### Changed\n\n- Changed the minimum supported
+    editor version to `2022.3`."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 3e241be2064283bf42e309918d6882bac2a52ba1
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.7.3
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:

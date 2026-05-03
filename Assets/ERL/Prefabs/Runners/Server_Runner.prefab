@@ -57,13 +57,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce63ce2e9421e384b85c1b4e28ff6fc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brokerAddress: 192.168.2.253
-  brokerPort: 1883
   isEncrypted: 0
   certificateName: 
   connectionDelay: 500
   timeoutOnConnection: 30000
   autoConnect: 1
+  DO_NOT_CONNECT: 0
   mqttUserName: abozeman8466
   mqttPassword: autumn8466
   clientId: echorace1-game-manager

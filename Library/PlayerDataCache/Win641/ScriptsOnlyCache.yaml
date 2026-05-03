@@ -63,6 +63,10 @@ ScriptsOnlyBuild:
     - MetaXRAcousticMaterialMapping
     - MetaXRAcousticSettings
     - MetaXRAudioSettings
+    Meta.XR.Audio.Editor.dll:
+    - MetaXRAcousticMaterialMappingEditor
+    Meta.XR.Audio.dll:
+    - MetaXRAcousticMaterialMapping
     Meta.XR.BuildingBlocks.DepthAPI.Editor.dll:
     - Meta.XR.BuildingBlocks.Editor.OcclusionBlockData
     Meta.XR.BuildingBlocks.Editor.dll:
@@ -82,7 +86,6 @@ ScriptsOnlyBuild:
     - Meta.XR.BuildingBlocks.Editor.SpatialAudioBlockData
     - Meta.XR.BuildingBlocks.Editor.SpeechToTextBlockBlockData
     - Meta.XR.BuildingBlocks.Editor.TextToSpeechBlockData
-    - Meta.XR.BuildingBlocks.Editor.VirtualKeyboardBlockData
     - Meta.XR.BuildingBlocks.SampleSpatialAnchorBlockData
     Meta.XR.BuildingBlocks.dll:
     - AlertViewHUD
@@ -271,6 +274,9 @@ ScriptsOnlyBuild:
     - OVRProjectConfig
     - OVRProjectSetupSettings
     Oculus.VR.dll:
+    - Meta.XR.DetachedMetaQuestTouchPlusControllerProfile
+    - Meta.XR.DetachedMetaQuestTouchProControllerProfile
+    - Meta.XR.DetachedOculusTouchControllerProfile
     - Meta.XR.InputActions.RuntimeSettings
     - Meta.XR.MetaXREyeTrackedFoveationFeature
     - Meta.XR.MetaXRFeature
@@ -298,7 +304,6 @@ ScriptsOnlyBuild:
     - OVRScenePlaneMeshFilter
     - OVRSkeleton
     - OVRSkeletonRenderer
-    - OVRVirtualKeyboard
     - UnityEngine.EventSystems.OVRInputModule
     Unity.AI.Toolkit.Accounts.dll:
     - Unity.AI.Toolkit.Accounts.Services.Core.AccountPersistence
@@ -382,6 +387,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.Splines.Editor.dll:
     - UnityEditor.Splines.CreateSplineTool
     - UnityEditor.Splines.SelectionContext
@@ -400,8 +407,12 @@ ScriptsOnlyBuild:
     - Unity.XR.CompositionLayers.CompositionLayersPreferences
     Unity.XR.CompositionLayers.dll:
     - Unity.XR.CompositionLayers.CompositionLayersRuntimeSettings
+    Unity.XR.Hands.dll:
+    - UnityEngine.XR.Hands.OpenXR.HandTracking
+    - UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
@@ -465,6 +476,7 @@ ScriptsOnlyBuild:
     Unity.XR.Simulation.Editor.dll:
     - UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager
     - UnityEditor.XR.Simulation.XREnvironmentViewManager
+    - UnityEditor.XR.Simulation.XRSimulationSettings
     Unity.XR.Simulation.dll:
     - UnityEngine.XR.Simulation.SimulatedBoundedPlane
     - UnityEngine.XR.Simulation.SimulatedBoundingBox
@@ -1631,7 +1643,7 @@ ScriptsOnlyBuild:
     className: HmdOffset
   - hash:
       serializedVersion: 2
-      Hash: aad1a2d49184e195bab0995a2dad8d37
+      Hash: 09cbce2253d01dbb5b0ae26a916e21d8
     assemblyName: Meta.XR.BuildingBlocks.AIBlocks
     namespaceName: Meta.XR.BuildingBlocks.AIBlocks
     className: UnityInferenceEngineProvider
@@ -1655,7 +1667,7 @@ ScriptsOnlyBuild:
     className: OVRMesh
   - hash:
       serializedVersion: 2
-      Hash: 0c5d4d342fb06e3e4f2c77837bdaff46
+      Hash: d1c66a151311e20274a3c46f6836fe3a
     assemblyName: Meta.XR.BuildingBlocks.AIBlocks
     namespaceName: Meta.XR.BuildingBlocks.AIBlocks
     className: ObjectDetectionVisualizer
@@ -1707,6 +1719,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.Samples
     namespaceName: Oculus.Interaction.Samples
     className: InteractableObjectLabel
+  - hash:
+      serializedVersion: 2
+      Hash: fe48156fd37f835c6c102c83c73b6cb0
+    assemblyName: Meta.XR.BuildingBlocks.AIBlocks
+    namespaceName: Meta.XR.BuildingBlocks.AIBlocks
+    className: ImageSegmentationVisualizer
   - hash:
       serializedVersion: 2
       Hash: b2269c3e77c2350989559f76de1fe215
@@ -2315,6 +2333,12 @@ ScriptsOnlyBuild:
     className: SelectSplinePath
   - hash:
       serializedVersion: 2
+      Hash: c71cd6607168316f38affa2edebf342e
+    assemblyName: Oculus.VR
+    namespaceName: Unity.XR.CompositionLayers.Extensions
+    className: SecureContentExtension
+  - hash:
+      serializedVersion: 2
       Hash: ea1bccacc209ab7cd54378397c2cfaa4
     assemblyName: Assembly-CSharp
     namespaceName: Unity.Splines.Examples
@@ -2537,6 +2561,12 @@ ScriptsOnlyBuild:
     className: UIFocus
   - hash:
       serializedVersion: 2
+      Hash: 6a6800d8dccafe01e96f2af7fa059198
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands.Gestures
+    className: XRHandPose
+  - hash:
+      serializedVersion: 2
       Hash: c487c6da77111ad648715627a5718c5c
     assemblyName: Oculus.VR
     namespaceName: 
@@ -2631,6 +2661,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71ec49a649c4200c1a5ca4c27f2a671a
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands.OpenXR
+    className: HandTracking
   - hash:
       serializedVersion: 2
       Hash: bc8c525e39b6fddab1a15c5b47455669
@@ -2897,12 +2933,6 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: adf7cec554d7cfef5e63180fd618982c
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardSampleInputHandler
-  - hash:
-      serializedVersion: 2
       Hash: c8eddbdca15bb062ccce5ec4bd1ebab3
     assemblyName: Meta.XR.ImmersiveDebugger
     namespaceName: Meta.XR.ImmersiveDebugger.Gizmo
@@ -3081,6 +3111,12 @@ ScriptsOnlyBuild:
     assemblyName: Meta.XR.ImmersiveDebugger
     namespaceName: Meta.XR.ImmersiveDebugger.Utils
     className: Vector2Container
+  - hash:
+      serializedVersion: 2
+      Hash: 812ac7f080bddcf29b098a2c0296a602
+    assemblyName: Oculus.VR
+    namespaceName: Unity.XR.CompositionLayers.Extensions
+    className: DepthTestExtension
   - hash:
       serializedVersion: 2
       Hash: 98a3f2a971cde321aa649d2571a1a97e
@@ -3497,6 +3533,12 @@ ScriptsOnlyBuild:
     className: VersionTextVisual
   - hash:
       serializedVersion: 2
+      Hash: 67ef8e5b60ab6635129d18320324656b
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands.Gestures
+    className: XRHandShape
+  - hash:
+      serializedVersion: 2
       Hash: 372914e5f4e82b3dcd18f9aa31e02f0c
     assemblyName: Meta.WitAi
     namespaceName: Meta.WitAi.Utilities
@@ -3531,6 +3573,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.Surfaces
     className: CylinderClipper
+  - hash:
+      serializedVersion: 2
+      Hash: 79f474ddd52efc4a3831c21792f903db
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands.OpenXR
+    className: MetaHandTrackingAim
   - hash:
       serializedVersion: 2
       Hash: 567c40088af46f63fcf6e8e3171903d4
@@ -3569,7 +3617,7 @@ ScriptsOnlyBuild:
     className: HandGrabGlow
   - hash:
       serializedVersion: 2
-      Hash: 8df219c98b07385a0959d559e952300d
+      Hash: 687eb0d34d688a0c0c8f029a663469d1
     assemblyName: Oculus.VR
     namespaceName: 
     className: OVRManager
@@ -3603,6 +3651,12 @@ ScriptsOnlyBuild:
     assemblyName: Meta.XR.ImmersiveDebugger
     namespaceName: Meta.XR.ImmersiveDebugger.UserInterface
     className: PanelInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5213e0afbb8c1db885f28a1688f8f2f2
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands.Capture
+    className: XRHandCaptureSequence
   - hash:
       serializedVersion: 2
       Hash: eb3689ba55543e2ebdd1aed67d41538a
@@ -3767,7 +3821,7 @@ ScriptsOnlyBuild:
     className: ActiveStateNodeUIHorizontal
   - hash:
       serializedVersion: 2
-      Hash: b01ec8194d5f8eae225aade270110fe3
+      Hash: ffff1f702648c60f642b8d9ac3fad2d5
     assemblyName: Meta.XR.BuildingBlocks.AIBlocks
     namespaceName: Meta.XR.BuildingBlocks.AIBlocks
     className: ObjectDetectionAgent
@@ -4253,7 +4307,7 @@ ScriptsOnlyBuild:
     className: PassthroughCameraAccess
   - hash:
       serializedVersion: 2
-      Hash: 1036cc125d9b006f92e693b6bd263e46
+      Hash: 39445e1a1aebc6e469028e204c0815e3
     assemblyName: Oculus.Interaction.UnityXR
     namespaceName: Oculus.Interaction.Input.UnityXR
     className: FromUnityXRHandDataSource
@@ -4413,6 +4467,12 @@ ScriptsOnlyBuild:
     assemblyName: Meta.XR.ImmersiveDebugger
     namespaceName: Meta.XR.ImmersiveDebugger.UserInterface.Generic
     className: OverlayCanvasPanel
+  - hash:
+      serializedVersion: 2
+      Hash: d18c5a280715fd0d8e416f542ad671b1
+    assemblyName: Oculus.VR
+    namespaceName: Meta.XR
+    className: DetachedOculusTouchControllerProfile
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -4617,12 +4677,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AppUI.Navigation
     namespaceName: Unity.AppUI.Navigation
     className: NavGraphViewAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 007c2500e9e3e541622395272341236f
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardControllerInputHandler
   - hash:
       serializedVersion: 2
       Hash: df153f0b67a536365d8418d4fd886cb8
@@ -4889,6 +4943,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9a596c463c3aceea69ec640b1f79331c
+    assemblyName: Meta.XR.BuildingBlocks.AIBlocks
+    namespaceName: Meta.XR.BuildingBlocks.AIBlocks
+    className: SegmentationMask3DVisualizer
+  - hash:
+      serializedVersion: 2
       Hash: e18dfd2b913b09fbbb2405165a2e6a44
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -4917,6 +4977,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 1d91f086857c1cd22c7e75343950ee5a
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands
+    className: XRHandSkeletonDriver
   - hash:
       serializedVersion: 2
       Hash: d85292b1d7ddb10e5a2df5d221dcba86
@@ -5211,6 +5277,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.VisualScripting
     namespaceName: UnityEngine.XR.ARFoundation.VisualScripting
     className: ARParticipantsChangedListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9e2356556655e72a2d85fc74ecfcf3c6
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands
+    className: XRHandTrackingEvents
   - hash:
       serializedVersion: 2
       Hash: 0027d284215f9a8ddf8975eb83677ebd
@@ -5681,12 +5753,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerObjectList
   - hash:
       serializedVersion: 2
-      Hash: fa20fe15a9d0c2cfda21f826ac94979b
-    assemblyName: Meta.XR.BuildingBlocks.AIBlocks
-    namespaceName: Meta.XR.BuildingBlocks.AIBlocks
-    className: ReplicateProvider
-  - hash:
-      serializedVersion: 2
       Hash: daeac1347f8039f61cd4017ff33bd3c6
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -5943,12 +6009,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction
     className: PointableCanvas
-  - hash:
-      serializedVersion: 2
-      Hash: 58e3d51c0992d539f2fb084105c98ca2
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboard
   - hash:
       serializedVersion: 2
       Hash: 85a33d02f50e24f12cdfabebe5e7fb60
@@ -6425,6 +6485,12 @@ ScriptsOnlyBuild:
     className: Paint
   - hash:
       serializedVersion: 2
+      Hash: f9d586ad50847f3292ceeab4a2588375
+    assemblyName: Unity.XR.Hands
+    namespaceName: UnityEngine.XR.Hands
+    className: XRHandMeshController
+  - hash:
+      serializedVersion: 2
       Hash: 3bddb15053118dcd72c355335d7af7f3
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
@@ -6699,6 +6765,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.PoseDetection.Debug
     className: ActiveStateDebugVisual
+  - hash:
+      serializedVersion: 2
+      Hash: a4b381b67d056f193bb21244343e14c5
+    assemblyName: Meta.XR.BuildingBlocks.AIBlocks
+    namespaceName: Meta.XR.BuildingBlocks.AIBlocks
+    className: RoboflowProvider
   - hash:
       serializedVersion: 2
       Hash: 83638a60c0cf4f6ef144e1839d11dcf0
@@ -7427,7 +7499,7 @@ ScriptsOnlyBuild:
     className: OnScreenStick
   - hash:
       serializedVersion: 2
-      Hash: 6c5a76e2adeb39e3da2087fd78f92dae
+      Hash: 5019414468114540bff9ffb0e638f803
     assemblyName: Meta.XR.MultiplayerBlocks.Shared
     namespaceName: Meta.XR.MultiplayerBlocks.Shared
     className: FriendsMatchmaking
@@ -7455,6 +7527,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: Unity.Splines.Examples
     className: CameraPathExample
+  - hash:
+      serializedVersion: 2
+      Hash: d1e0a317db375929841c3089032f0fd0
+    assemblyName: Oculus.VR
+    namespaceName: Meta.XR
+    className: DetachedMetaQuestTouchPlusControllerProfile
   - hash:
       serializedVersion: 2
       Hash: f858146870dfff519a80f5e9baa6a8a0
@@ -7769,12 +7847,6 @@ ScriptsOnlyBuild:
     className: MRUK
   - hash:
       serializedVersion: 2
-      Hash: 64243a46040fb8c70d887df4c91f372f
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardHandInputHandler
-  - hash:
-      serializedVersion: 2
       Hash: 1f83eef13a79f436d9b929359da21ab6
     assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -7839,12 +7911,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.OVR
     namespaceName: Oculus.Interaction
     className: OVRControllerMatchesProfileActiveState
-  - hash:
-      serializedVersion: 2
-      Hash: 4b38017c6823680a3ecdd0c287ad2ef3
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardInputFieldTextHandler
   - hash:
       serializedVersion: 2
       Hash: 308a17bd68323499599621547f505d6b
@@ -8033,16 +8099,16 @@ ScriptsOnlyBuild:
     className: DynamicEntityKeywordRegistry
   - hash:
       serializedVersion: 2
+      Hash: 114ade0b17acb2332aa6a518eb0b0c0d
+    assemblyName: Meta.XR.ImmersiveDebugger
+    namespaceName: Meta.XR.ImmersiveDebugger
+    className: RuntimeSettings
+  - hash:
+      serializedVersion: 2
       Hash: 3b66ff7724f655061c23fdb26434dc13
     assemblyName: Oculus.Interaction.UnityXR
     namespaceName: Oculus.Interaction.UnityXR
     className: FromUnityXRControllerDataSource
-  - hash:
-      serializedVersion: 2
-      Hash: ba8811ff69c742b804a3d8e9f4958708
-    assemblyName: Meta.XR.ImmersiveDebugger
-    namespaceName: Meta.XR.ImmersiveDebugger
-    className: RuntimeSettings
   - hash:
       serializedVersion: 2
       Hash: c804c6b9cbeb99a67086adcf0a886889
@@ -8205,12 +8271,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.HandGrab
     className: HandGrabUseInteractable
-  - hash:
-      serializedVersion: 2
-      Hash: bde0b2f4fd845af6a404c4f177b42c36
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardSampleWPMPrompt
   - hash:
       serializedVersion: 2
       Hash: 136f80fb6429f04c776ade9abcf4a740
@@ -8387,7 +8447,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d9449ad58163ba3453b3d82a9d04d496
+      Hash: 88d5cf5d69328f8628b29e67f20e8b26
     assemblyName: Meta.XR.BuildingBlocks.AIBlocks
     namespaceName: Meta.XR.BuildingBlocks.AIBlocks
     className: LlmAgent
@@ -8573,6 +8633,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollbarValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b86e5e34320287952dc813bc7164d110
+    assemblyName: Oculus.VR
+    namespaceName: Meta.XR
+    className: DetachedMetaQuestTouchProControllerProfile
+  - hash:
+      serializedVersion: 2
       Hash: fe6622cb664c0f7fe8437f4ad02e070d
     assemblyName: Assembly-CSharp
     namespaceName: RestClient.Scripts.Clients
@@ -8625,12 +8691,6 @@ ScriptsOnlyBuild:
     assemblyName: meta.xr.mrutilitykit
     namespaceName: Meta.XR.MRUtilityKit.SceneDecorator
     className: ScaleModifier
-  - hash:
-      serializedVersion: 2
-      Hash: 03e6b40290d8f60d0c2066bd5ea3f1a9
-    assemblyName: Oculus.VR
-    namespaceName: 
-    className: OVRVirtualKeyboardSampleControls
   - hash:
       serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
@@ -8715,6 +8775,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.Input
     className: FromHandPrefabDataSource
+  - hash:
+      serializedVersion: 2
+      Hash: 93bb12f8038d83ef1de90fab6297e8d0
+    assemblyName: Oculus.VR
+    namespaceName: Unity.XR.CompositionLayers.Extensions
+    className: FilteringSettingsExtension
   - hash:
       serializedVersion: 2
       Hash: 8d5318ed8488b1fe17c08044ce1b8309
@@ -9237,6 +9303,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction
     namespaceName: Oculus.Interaction.Throw
     className: ThrowTuner
+  - hash:
+      serializedVersion: 2
+      Hash: dc882c4dafbe97f8097c58dbad4bc7e2
+    assemblyName: Meta.XR.BuildingBlocks.AIBlocks
+    namespaceName: Meta.XR.BuildingBlocks.AIBlocks
+    className: ImageSegmentationAgent
   - hash:
       serializedVersion: 2
       Hash: 80602bed819ba2ef131b963c4677532c

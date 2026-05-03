@@ -22,8 +22,10 @@ MonoBehaviour:
   m_Scenes:
   - m_enabled: 1
     m_path: Assets/ERL/Scenes/ERLServer.unity
+    m_guid: 56072c0a4e9f93f4a9795739ba91421d
   - m_enabled: 1
     m_path: Assets/ERL/Scenes/ERLGame.unity
+    m_guid: ba9368c4f14b16740927676685d7c7a6
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

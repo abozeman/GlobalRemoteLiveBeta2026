@@ -8,6 +8,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
+using UnityEngine.XR;
 
 namespace Assets.CryptoKartz.Scripts
 {
@@ -48,6 +49,7 @@ namespace Assets.CryptoKartz.Scripts
             // Proceed with your scene logic here
             WaitForRig(OVRManager.instance.GetComponent<OVRCameraRig>().gameObject);
 
+            StartCoroutine(SetTrackingOrigin());
             StartCoroutine(Initialize());
 
         }
@@ -80,6 +82,32 @@ namespace Assets.CryptoKartz.Scripts
             var _erlPlatformPlacement = _erlPlatformPlacementTool.GetComponent<ERLPlatformPlacement>();
             _erlPlatformPlacement.enabled = true;
             yield return new WaitUntil(() => _erlPlatformPlacement._isReady);
+        }
+
+        private IEnumerator SetTrackingOrigin()
+        {
+            // Give the headset and subsystem time to fully initialize
+            yield return new WaitForSeconds(1.0f);
+
+            var inputSubsystems = new List<XRInputSubsystem>();
+            SubsystemManager.GetInstances(inputSubsystems);
+
+            foreach (var subsystem in inputSubsystems)
+            {
+                if (subsystem.running)
+                {
+                    bool success = subsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Floor);
+                    if (success)
+                    {
+                        Debug.Log("Successfully set tracking origin to Floor.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Failed to set tracking origin to Floor. Attempting Device level.");
+                        subsystem.TrySetTrackingOriginMode(TrackingOriginModeFlags.Device);
+                    }
+                }
+            }
         }
 
         #region Uunsed INetworkRunnerCallbacks Implementation

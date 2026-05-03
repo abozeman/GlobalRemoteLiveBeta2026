@@ -496,7 +496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026168864059769497, guid: cc540850f308e80418e08b5edba072ad, type: 3}
       propertyPath: DO_NOT_CONNECT
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4669680731608437557, guid: cc540850f308e80418e08b5edba072ad, type: 3}
       propertyPath: ghostCar

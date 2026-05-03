@@ -9,13 +9,13 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.4.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.meta.xr.sdk.all@85.0.0": {
+    "com.meta.xr.sdk.all@201.0.0": {
       "name": "com.meta.xr.sdk.all",
       "displayName": "Meta XR All-in-One SDK",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.all@90ef6bf39e18",
-      "fingerprint": "90ef6bf39e18cf327a84a5cac5bb9d6a8d7e8218",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.all@9edae415c95a",
+      "fingerprint": "9edae415c95aa1d5b5a5124d5f4236689dcc2799",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
@@ -657,13 +657,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.sdk.core@85.0.0": {
+    "com.meta.xr.sdk.core@201.0.0": {
       "name": "com.meta.xr.sdk.core",
       "displayName": "Meta XR Core SDK",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.core@f8b4cfb2789f",
-      "fingerprint": "f8b4cfb2789f06cb55ea30b9a379bf52c98d1af3",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.core@9a2eddde53b7",
+      "fingerprint": "9a2eddde53b704a5794acebf4300ee9eee67edcc",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
@@ -687,53 +687,53 @@
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.sdk.haptics@85.0.0": {
+    "com.meta.xr.sdk.haptics@201.0.0": {
       "name": "com.meta.xr.sdk.haptics",
       "displayName": "Meta XR Haptics SDK",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.haptics@d7e7093eecae",
-      "fingerprint": "d7e7093eecae9ed731deb54e8eebcef54e13f17f",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.haptics@ab22382f01e2",
+      "fingerprint": "ab22382f01e28c6718eba06b3458012d4ccc4307",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.mrutilitykit@85.0.0": {
+    "com.meta.xr.mrutilitykit@201.0.0": {
       "name": "com.meta.xr.mrutilitykit",
       "displayName": "Meta MR Utility Kit",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.mrutilitykit@6d21b459f6d3",
-      "fingerprint": "6d21b459f6d362253a30d22b68dd0afb38f1a288",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.mrutilitykit@f5cfbb0224ff",
+      "fingerprint": "f5cfbb0224ffeec029174ffdf2251085cb1d3ef6",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.sdk.platform@85.0.0": {
+    "com.meta.xr.sdk.platform@201.0.0": {
       "name": "com.meta.xr.sdk.platform",
       "displayName": "Meta XR Platform SDK",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.platform@2c35e5919b21",
-      "fingerprint": "2c35e5919b2105a8b5d94c41bd8bfc65fe633496",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.platform@e8696127fbfb",
+      "fingerprint": "e8696127fbfb74457fc38b5e6db71f4b590e1c45",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.sdk.interaction@85.0.0": {
+    "com.meta.xr.sdk.interaction@201.0.0": {
       "name": "com.meta.xr.sdk.interaction",
       "displayName": "Meta XR Interaction SDK Essentials",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.interaction@0a0b3efbe99d",
-      "fingerprint": "0a0b3efbe99d88502b6218894e19a1faf173b34d",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.interaction@a03d9b382ceb",
+      "fingerprint": "a03d9b382ceb7b267996fc79af7012509a6faec5",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
-    "com.meta.xr.sdk.interaction.ovr@85.0.0": {
+    "com.meta.xr.sdk.interaction.ovr@201.0.0": {
       "name": "com.meta.xr.sdk.interaction.ovr",
       "displayName": "Meta XR Interaction ​SDK",
-      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.interaction.ovr@964224d78bc9",
-      "fingerprint": "964224d78bc96d4bfda7484c91359234725da08f",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.meta.xr.sdk.interaction.ovr@63917e649e42",
+      "fingerprint": "63917e649e42ae940aec078081f274eba23098f7",
       "editorCompatibility": "2022.3.15f1",
-      "version": "85.0.0",
+      "version": "201.0.0",
       "source": "registry",
       "testable": false
     },
@@ -775,6 +775,16 @@
       "editorCompatibility": "2023.2.0a1",
       "version": "5.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.xr.hands@1.7.3": {
+      "name": "com.unity.xr.hands",
+      "displayName": "XR Hands",
+      "resolvedPath": "C:\\Users\\antho\\TPLive\\TP2026Test\\TP2026\\Library\\PackageCache\\com.unity.xr.hands@3e241be20642",
+      "fingerprint": "3e241be2064283bf42e309918d6882bac2a52ba1",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.7.3",
+      "source": "registry",
       "testable": false
     }
   }

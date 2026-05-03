@@ -1,4 +1,9 @@
 <linker>
+  <assembly fullname="Oculus.VR">
+    <type fullname="Meta.XR.DetachedMetaQuestTouchPlusControllerProfile/DetachedQuestTouchPlusController" preserve="all"/>
+    <type fullname="Meta.XR.DetachedMetaQuestTouchProControllerProfile/DetachedQuestProTouchController" preserve="all"/>
+    <type fullname="Meta.XR.DetachedOculusTouchControllerProfile/DetachedOculusTouchController" preserve="all"/>
+  </assembly>
   <assembly fullname="Unity.InputSystem">
     <type fullname="Unity.XR.GoogleVr.DaydreamController" preserve="all"/>
     <type fullname="Unity.XR.GoogleVr.DaydreamHMD" preserve="all"/>
@@ -168,6 +173,12 @@
   </assembly>
   <assembly fullname="Unity.XR.ARSubsystems">
     <type fullname="UnityEngine.XR.ARSubsystems.HandheldARInputDevice" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.XR.Hands">
+    <type fullname="UnityEngine.XR.Hands.MetaAimHand" preserve="all"/>
+    <type fullname="UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim/MetaAimHand" preserve="all"/>
+    <type fullname="UnityEngine.XR.Hands.XRHandDevice" preserve="all"/>
+    <type fullname="UnityEngine.XR.Hands.XRHandDeviceState" preserve="all"/>
   </assembly>
   <assembly fullname="Unity.XR.OpenXR">
     <type fullname="UnityEngine.XR.OpenXR.Features.Interactions.DPadInteraction/DPad" preserve="all"/>
