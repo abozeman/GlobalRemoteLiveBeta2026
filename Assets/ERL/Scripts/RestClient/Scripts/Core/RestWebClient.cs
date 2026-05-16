@@ -55,7 +55,7 @@ namespace RestClient.Core
             {
                 yield return webRequest.SendWebRequest();
 
-                if(webRequest.isNetworkError){
+                if(webRequest.result == UnityWebRequest.Result.ConnectionError){
                     callback(new Response {
                         StatusCode = webRequest.responseCode,
                         Error = webRequest.error
@@ -96,7 +96,7 @@ namespace RestClient.Core
 
                 yield return webRequest.SendWebRequest();
 
-                if(webRequest.isNetworkError)
+                if(webRequest.result == UnityWebRequest.Result.ConnectionError)
                 {
                     callback(new Response {
                         StatusCode = webRequest.responseCode,

@@ -14,7 +14,7 @@
     <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW" />
     <meta-data android:name="com.oculus.ossplash.background" android:value="passthrough-contextual" />
     <meta-data android:name="com.oculus.telemetry.project_guid" android:value="eacc5b10-af61-4662-b546-ad35c72c0a91" />
-    <meta-data android:name="com.oculus.supportedDevices" android:value="quest3s" tools:replace="android:value" />
+    <meta-data android:name="com.oculus.supportedDevices" android:value="questpro|quest3|quest3s" tools:replace="android:value" />
   </application>
   <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
   <uses-feature android:name="oculus.software.handtracking" android:required="false" />
@@ -25,6 +25,6 @@
   <uses-permission android:name="android.permission.VIBRATE" />
   <uses-feature android:name="com.oculus.experimental.enabled" android:required="true" />
   <uses-permission android:name="com.oculus.permission.IMPORT_EXPORT_IOT_MAP_DATA" />
-  <horizonos:uses-horizonos-sdk horizonos:minSdkVersion="68" horizonos:targetSdkVersion="78" />
+  <horizonos:uses-horizonos-sdk horizonos:minSdkVersion="68" horizonos:targetSdkVersion="201" />
   <uses-permission android:name="horizonos.permission.HEADSET_CAMERA" />
 </manifest>

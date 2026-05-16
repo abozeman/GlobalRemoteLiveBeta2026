@@ -90,7 +90,7 @@ namespace Assets.CryptoKartz.Scripts
             yield return new WaitForSeconds(1.0f);
 
             var inputSubsystems = new List<XRInputSubsystem>();
-            SubsystemManager.GetInstances(inputSubsystems);
+            SubsystemManager.GetSubsystems(inputSubsystems);
 
             foreach (var subsystem in inputSubsystems)
             {

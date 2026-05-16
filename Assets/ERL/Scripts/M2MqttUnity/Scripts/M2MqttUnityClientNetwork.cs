@@ -214,10 +214,11 @@ namespace M2MqttUnity
                 }
                 backMessageQueue.Clear();
             }
-            catch (Exception e)
-            {
-                //Debug.LogErrorFormat("DecodeMessage FAILED! {0}", e.ToString()); ;
+            catch (Exception e) 
+            { 
+                Debug.LogException(e); 
             }
+
         }
 
         /// <summary>

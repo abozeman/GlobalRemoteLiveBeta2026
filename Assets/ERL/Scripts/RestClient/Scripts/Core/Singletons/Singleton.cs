@@ -12,7 +12,7 @@ namespace RestClient.Core.Singletons
             {
                 if (_instance == null)
                 {
-                    var objs = FindObjectsOfType(typeof(T)) as T[];
+                    var objs = FindObjectsByType(typeof(T)) as T[];
                     if (objs.Length > 0)
                         _instance = objs[0];
                     if (objs.Length > 1)

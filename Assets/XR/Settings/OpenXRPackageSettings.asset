@@ -86,10 +86,10 @@ MonoBehaviour:
   - {fileID: -1865936008396156454}
   - {fileID: 6458386755805577193}
   - {fileID: 8086942184634949743}
-  - {fileID: 834592903015498925}
-  - {fileID: 3244047604637302888}
-  - {fileID: -3493181393756430981}
-  - {fileID: -7926423255258479637}
+  - {fileID: 4535346207850175947}
+  - {fileID: 7283318511878530487}
+  - {fileID: -1904576287044816390}
+  - {fileID: 3363119801781700578}
   - {fileID: -570150227797176571}
   - {fileID: -6104411256135915488}
   - {fileID: 6131622531926924925}
@@ -537,11 +537,11 @@ MonoBehaviour:
   - {fileID: -3227364506961318901}
   - {fileID: -7422055562177183039}
   - {fileID: -7161582386595561135}
-  - {fileID: -2573941990347242601}
-  - {fileID: 7404880874617976368}
-  - {fileID: 3516132160892172681}
-  - {fileID: 445405515581950569}
-  - {fileID: 8263061701442738108}
+  - {fileID: -7844039285525400162}
+  - {fileID: 918871036809312468}
+  - {fileID: 6078901311074849361}
+  - {fileID: -6913521843274350462}
+  - {fileID: 2870079281063857887}
   - {fileID: -513685390215930373}
   - {fileID: 9191547388076891738}
   - {fileID: -6880509576446863750}
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.MetaXRFeature
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28f705476c80d47acb3dfade3d3142, type: 3}
   m_Name: MetaXRFoveationFeature Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.MetaXRFoveationFeature
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -2032,7 +2032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.MetaXRFeature
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -2226,7 +2226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f61610f95074135a9fd060fc37c4788, type: 3}
   m_Name: BoundaryVisibilityFeature Standalone
   m_EditorClassIdentifier: Unity.XR.MetaOpenXR::UnityEngine.XR.OpenXR.Features.Meta.BoundaryVisibilityFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility

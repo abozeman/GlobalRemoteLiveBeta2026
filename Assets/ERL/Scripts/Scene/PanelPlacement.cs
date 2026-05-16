@@ -14,7 +14,7 @@ public class PanelPlacement : MonoBehaviour
         if (centerEye == null) return;
 
         // Find the camera rig in the scene
-        OVRCameraRig rig = FindFirstObjectByType<OVRCameraRig>();
+        OVRCameraRig rig = FindAnyObjectByType<OVRCameraRig>();
 
         if (rig != null)
         {
